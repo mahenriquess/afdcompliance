@@ -9731,6 +9731,16 @@ header.masthead h1 {
   opacity: 1;
 }
 
-.logo{
+.logo-img{
   height: 50px;
+  display: none;
+}
+
+@media (max-width:991px) {
+  .logo-img {
+    display: block;
+  }
+  .logo-text {
+    display: none;
+  }
 }
